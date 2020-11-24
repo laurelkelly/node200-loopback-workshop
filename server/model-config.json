@@ -36,11 +36,11 @@
     "public": false
   },
   "Player": {
-    "dataSource": "mongoatlas",
+    "dataSource": "MongoDB",
     "public": true
   },
   "Team": {
-    "dataSource": "mongoatlas",
+    "dataSource": "MongoDB",
     "public": true
   }
 }
