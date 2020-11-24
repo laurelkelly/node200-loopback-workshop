@@ -12,6 +12,7 @@ module.exports = {
         "name": "MongoDB",
         "user": "",
         "useNewUrlParser": true,
+        'useUnifiedTopology': true,
         "connector": "mongodb"
     }
 }
