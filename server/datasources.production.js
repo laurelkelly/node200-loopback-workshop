@@ -1,11 +1,15 @@
-require('dotenv').config();
+// require('dotenv').config();
+'use strict';
+const envs = require('./env.js');
 
 module.exports = {
-    "MongoDB": {
-        "name": "MongoDB",
-        "connector": "mongodb",
-        "url": process.env.MONGODB_URL,
-        'useNewUrlParser': true, 
-        'useUnifiedTopology': true
+    mongoatlas: {
+        url: envs.url,
+        port: 27017,
+        database: "db",
+        name: "mongoatlas",
+        connector: "mongodb",
+        user: envs.user,
+        password: envs.password
     }
 }
