@@ -8,8 +8,7 @@
   "scripts": {
     "lint": "eslint .",
     "start": "node .",
-    "test": "mocha test/*.spec.js",
-    "posttest": "npm run lint"
+    "test": "mocha test/*.spec.js --exit"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
