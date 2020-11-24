@@ -5,11 +5,7 @@
   "initial": {
     "compression": {},
     "helmet#xssFilter": {},
-    "helmet#frameguard": {
-      "params": {
-        "action": "deny"
-      }
-    },
+    "helmet#frameguard": {},
     "helmet#hsts": {
       "params": {
         "maxAge": 0,
