@@ -1,10 +1,10 @@
 require('dotenv').config();
 
 module.exports = {
-    "db": {
-        "name": "db",
-        "connector": "memory"
-    },
+    // "db": {
+    //     "name": "db",
+    //     "connector": "memory"
+    // },
     // "MongoDB": {
     //     "host": "",
     //     "port": 0,
