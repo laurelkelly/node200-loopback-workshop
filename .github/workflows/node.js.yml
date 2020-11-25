@@ -11,8 +11,6 @@ on:
 
 jobs:
   build:
-    env:
-      NODE_ENV: production
 
     runs-on: [ubuntu-latest]
 
